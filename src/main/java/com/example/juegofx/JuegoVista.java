@@ -51,6 +51,8 @@ public class JuegoVista extends BorderPane {
         pista.setAlignment(paredInferior,Pos.BOTTOM_CENTER);
         pista.setAlignment(paredSuperior,Pos.TOP_CENTER);
         this.setCenter(pista);
+        /*pista.setFocusTraversable(Boolean.TRUE);
+        this.setFocusTraversable(Boolean.TRUE);*/
 
         this.controlador = new JuegoController(paredIzda,paredDcha,paredInferior,paredSuperior,tanque,pista);
     }
